@@ -15,7 +15,9 @@ public class Cuenta {
     private String tipoCuenta;
     private double saldoInicial;
     private boolean estado;
-
+    @ManyToOne
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
     public Cuenta() {
     }
 

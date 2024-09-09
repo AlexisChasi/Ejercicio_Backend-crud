@@ -14,7 +14,9 @@ public class Movimiento {
     private String tipoMovimiento;
     private double valor;
     private double saldo;
-
+    @ManyToOne
+    @JoinColumn(name = "cuenta_id")
+    private Cuenta cuenta;
     public Movimiento() {
     }
 
