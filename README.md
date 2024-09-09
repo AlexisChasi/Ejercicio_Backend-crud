@@ -24,8 +24,9 @@ Este proyecto utiliza las siguientes dependencias principales:
 - spring.jpa.properties.hibernate.format_sql=true
 
 
-# Crear Cliente
-![image](https://github.com/user-attachments/assets/c3e3bcc0-00d5-41b6-a248-2b660adca670)
+# Crear Cliente-cuenta- movimiento
+![image](https://github.com/user-attachments/assets/c3e3bcc0-00d5-41b6-a248-2b660adca670) - ![image](https://github.com/user-attachments/assets/02dba18e-5afb-4704-b3f3-6371a5240a66)
+
 # Listar Cliente
 ![image](https://github.com/user-attachments/assets/5b423882-2343-4148-8830-f0b0c99200c4)
 # Actualiza Cliente
