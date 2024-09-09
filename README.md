@@ -13,6 +13,15 @@ Este proyecto utiliza las siguientes dependencias principales:
 - Configuración
 - Configuración de la Base de Datos
 - Asegúrate de que PostgreSQL esté instalado y en ejecución en tu máquina local. Puedes cambiar la URL, el usuario y la contraseña de la base de datos en el archivo application.properties según tu configuración local.
+  
+- spring.application.name=crud
+- spring.datasource.url=jdbc:postgresql://localhost:5432/crud
+- spring.datasource.username=postgres
+- spring.datasource.password=123456
+- spring.jpa.hibernate.ddl-auto=create-drop
+- spring.jpa.show-sql=true
+- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+- spring.jpa.properties.hibernate.format_sql=true
 
 
 # Crear Cliente
